@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme base{
+    --color-neutral-600: hsl(233, 8%, 62%);
+    --color-neutral-100: hsl(220, 16%, 96%);
+    --color-neutral-50: hsl(0, 0%, 98%);
+    --color-white: hsl(0, 100%, 100%);
+
+    --color-Blue-950: hsl(233, 26%, 24%);
+    --color-Green-500: hsl(136, 64%, 51%);
+    --color-Cyan-400: hsl(192, 69%, 51%)
+}
+
+
+body {
+    font-family: public-sans, sans-serif;
+
+}
+h1 {
+    font-size: 3rem;
+    line-height: 1.2;     
+}
+h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+}
+h3 {
+    font-size: 1.3rem;
+    line-height: 1.2;
+    
+}
+
+h4 {
+    font-size: 0.8rem;
+    line-height: 1.2;
+}
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+h4, p {
+    
+    color: hsl(233, 8%, 62%);
+}
